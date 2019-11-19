@@ -13,7 +13,7 @@ The following list contains trace datasets used for evaluation. Each attack was 
 * **ftp_bruteforce** -- short and unsuccessful attempt to guess a user’s password for FTP service (FTP traffic);
 * **ponyloader_botnet** -- Pony Loader botnet used for stealing of credentials from 3 target devices reporting to single IP with a large number of intermediate addresses (DNS and HTTP traffic);
 * **scan** -- the capture of nmap tool that scans given subnet using ICMP echo and TCP SYN requests (consist of ARP, ICMP, and TCP traffic);
-* **wannacry_ransomware** -- the capture of Wanacry ransomware that spreads in a domain with three workstations, a domain controller, and a file-sharing server (SMB and SMBv2 traffic).
+* **wannacry_ransomware** -- the capture of Wanacry ransomware that spreads in a domain with three workstations, a domain controller, and a file-sharing server (SMB and SMBv2 traffic).
 
 
 ## Background Traffic Data
