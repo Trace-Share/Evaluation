@@ -1,8 +1,8 @@
-# Trace-Share Dataset for Evaluation of Trace Meaning Preservation
+# Evaluation of Trace Meaning Preservation
 
-The file contains all data used during the evaluation of trace meaning preservation. Archives are protected by password "**trace-share**" to avoid false detection by antivirus software.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3547528.svg)](https://doi.org/10.5281/zenodo.3547528)
 
-For more information, see the project repository at [https://github.com/Trace-Share](https://github.com/Trace-Share).
+The file contains a summary of results for the evaluation of trace meaning preservation. Raw data with all traces and their variants, together with Suricata analysis results, are available at [https://zenodo.org/record/3547528](https://zenodo.org/record/3547528).
 
 
 ## Selected Attack Traces
@@ -21,15 +21,20 @@ The following list contains trace datasets used for evaluation. Each attack was 
 Publicly available dataset [CSE-CIC-IDS-2018](https://www.unb.ca/cic/datasets/ids-2018.html) was used as a background traffic data. The evaluation uses data from the day Thursday-01-03-2018 containing a sufficient proportion of regular traffic without any statistically significant attacks. Only traffic aimed at victim machines (range 172.31.69.0/24) is used to reduce less significant traffic.
 
 
-## Evaluation Results and Directory Structure
+## Dataset Structure
 
-* Traces variants ([traces.zip](./traces.zip))
-    * [traces-original](./traces-original/) — trace PCAP files and crawled details in YAML format;
-    * [traces-normalized](./traces-normalized) — normalized PCAP files and details in YAML format;
-    * [traces-adjusted](./traces-adjusted) — adjusted PCAP files using various timestamp generation settings, combination configuration in YAML format, and lables provided by ID2T in XML format.
-* Extracted alerts ([alerts.zip](./alerts.zip))
-    * [alerts-original](./alerts-original/) — extracted Suricata alerts, Suricata log, and full Suricata output for all original trace files;
-    * [alerts-normalized](./alerts-normalized/) — extracted Suricata alerts, Suricata log, and full Suricata output for all normalized trace files;
-    * [alerts-adjusted](./alerts-adjusted/) — extracted Suricata alerts, Suricata log, and full Suricata output for all adjusted trace files.
+* Traces variants ([traces.zip](https://zenodo.org/record/3547528/files/traces.zip) — password: "trace-share")
+    * `./traces-original/` — trace PCAP files and crawled details in YAML format;
+    * `./traces-normalized/` — normalized PCAP files and details in YAML format;
+    * `./traces-adjusted/` — adjusted PCAP files using various timestamp generation settings, combination configuration in YAML format, and lables provided by ID2T in XML format.
+* Extracted alerts ([alerts.zip](https://zenodo.org/record/3547528/files/alerts.zip) — password: "trace-share")
+    * `./alerts-original/` — extracted Suricata alerts, Suricata log, and full Suricata output for all original trace files;
+    * `./alerts-normalized/` — extracted Suricata alerts, Suricata log, and full Suricata output for all normalized trace files;
+    * `./alerts-adjusted/` — extracted Suricata alerts, Suricata log, and full Suricata output for all adjusted trace files.
 * Evaluation results 
     * `.csv` files in the root directory — data contains extracted alert signatures and their count per each trace variant.
+
+
+## Cooperation
+
+*If you are interested in research collaborations, don't hesitate to contact us at  [https://csirt.muni.cz](https://csirt.muni.cz/about-us/contact?lang=en)!*
