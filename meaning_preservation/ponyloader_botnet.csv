@@ -1,0 +1,11 @@
+﻿signature;original;normalized;default;delay;delay_forIPconst;random_oscillation
+ET POLICY Binary Download Smaller than 1 MB Likely Hostile;1;0;1;1;1;1
+ET POLICY Dropbox Client Broadcasting;1;0;0;0;0;0
+ET POLICY Reserved Internal IP Traffic;1;0;1;1;1;1
+ET POLICY exe download via HTTP - Informational;1;0;1;1;1;1
+ET TROJAN Fareit/Pony Downloader Checkin 2;1;0;1;1;1;1
+ET TROJAN Generic -POST To gate.php w/Extended ASCII Characters (Likely Zeus Derivative);1;0;1;1;1;1
+ET TROJAN Possible Graftor EXE Download Common Header Order;1;0;1;1;1;1
+ET TROJAN Possible Zeus GameOver Connectivity Check;4;0;4;1;4;2
+ET TROJAN Trojan Generic - POST To gate.php with no referer;1;0;1;1;1;1
+ET TROJAN VMProtect Packed Binary Inbound via HTTP - Likely Hostile;1;0;1;1;1;1

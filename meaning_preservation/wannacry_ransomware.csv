@@ -1,0 +1,17 @@
+﻿signature;original;normalized;default;delay;delay_forIPconst;random_oscillation
+SURICATA IPv4 padding required ';11;11;11;11;11;11
+ET EXPLOIT ETERNALBLUE Exploit M2 MS17-010;10;10;10;10;10;10
+ET EXPLOIT ETERNALBLUE Probe Vulnerable System Response MS17-010;7;0;6;5;5;6
+ET EXPLOIT Possible DOUBLEPULSAR Beacon Response;7760;0;7760;7760;7760;7760
+ET EXPLOIT Possible ETERNALBLUE MS17-010 Echo Response;21;0;12;12;12;12
+ET EXPLOIT Possible ETERNALBLUE MS17-010 Heap Spray;4;0;4;3;4;4
+ET EXPLOIT Possible ETERNALBLUE Probe MS17-010 (Generic Flags);3;0;3;3;3;3
+ET EXPLOIT Possible ETERNALBLUE Probe MS17-010 (MSF style);3;0;3;3;3;3
+ET EXPLOIT [PTsecurity] DoublePulsar Backdoor installation communication;7910;0;7902;7902;7902;7902
+ET INFO Potentially unsafe SMBv1 protocol in use;3;3;3;3;3;3
+ET POLICY Reserved Internal IP Traffic;11;0;3;3;3;3
+ET SCAN Behavioral Unusual Port 445 traffic Potential Scan or Infection;1;0;1;1;1;1
+GPL ICMP_INFO Destination Unreachable Port Unreachable;2;0;0;0;0;0
+GPL NETBIOS SMB-DS IPC$ share access;12;0;6;6;6;6
+GPL NETBIOS SMB-DS IPC$ unicode share access;53;0;36;36;39;36
+SURICATA zero length padN option;11;11;11;11;11;11

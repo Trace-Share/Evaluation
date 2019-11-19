@@ -1,0 +1,3 @@
+﻿signature;original;normalized;default;delay;delay_forIPconst;random_oscillation
+ET POLICY Reserved Internal IP Traffic;2;0;1;1;1;1
+ET USER_AGENTS User Agent Containing http Suspicious - Likely Spyware/Trojan;87;87;87;87;87;87

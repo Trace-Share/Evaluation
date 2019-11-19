@@ -1,0 +1,5 @@
+﻿signature;original;normalized;default;delay;delay_forIPconst;random_oscillation
+ET POLICY Reserved Internal IP Traffic;2;0;1;1;1;1
+ET SCAN Potential FTP Brute-Force attempt response;6;0;6;6;6;6
+GPL FTP FTP Bad login;30;0;30;30;30;30
+SURICATA Applayer Detect protocol only one direction;30;30;30;30;30;30

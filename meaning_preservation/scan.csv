@@ -1,0 +1,18 @@
+﻿signature;original;normalized;default;delay;delay_forIPconst;random_oscillation
+ET POLICY Reserved Internal IP Traffic;4;0;0;0;0;0
+ET SCAN NMAP -sA (1);253;0;30;30;30;30
+ET SCAN NMAP -sS window 1024;255;0;30;30;30;30
+ET SCAN Potential VNC Scan 5800-5820;1;0;0;0;0;0
+ET SCAN Potential VNC Scan 5900-5920;1;0;0;0;0;0
+ET SCAN Suspicious inbound to MSSQL port 1433;4;0;0;0;0;0
+ET SCAN Suspicious inbound to Oracle SQL port 1521;4;0;0;0;0;0
+ET SCAN Suspicious inbound to PostgreSQL port 5432;4;0;0;0;0;0
+ET SCAN Suspicious inbound to mySQL port 3306;4;0;0;0;0;0
+GPL ICMP_INFO Destination Unreachable Host Unreachable;9;9;9;9;9;9
+GPL ICMP_INFO Echo Reply;5;5;5;5;5;5
+GPL ICMP_INFO PING;510;0;60;60;60;60
+GPL ICMP_INFO Timestamp Request;506;0;60;60;60;60
+GPL POLICY SOCKS Proxy attempt;4;0;0;0;0;0
+GPL SCAN PING NMAP;510;0;60;60;60;60
+GPL SNMP request tcp;4;0;0;0;0;0
+ET WORM Potential MySQL bot scanning for SQL server;0;4;4;4;4;4
