@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3547528.svg)](https://doi.org/10.5281/zenodo.3547528)
 
-The file contains a summary of results for the evaluation of trace meaning preservation. Raw data with all traces and their variants, together with Suricata analysis results, are available at [https://doi.org/10.5281/zenodo.3547528](https://doi.org/10.5281/zenodo.3547528).
+The directory contains a summary of results for the evaluation of trace meaning preservation. Raw data with all traces and their variants, together with Suricata analysis results, are available at [https://doi.org/10.5281/zenodo.3547528](https://doi.org/10.5281/zenodo.3547528).
 
 
 ## Selected Attack Traces
