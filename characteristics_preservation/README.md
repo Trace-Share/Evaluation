@@ -1,8 +1,8 @@
 # Evaluation of Statistical Characteristics Preservation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3547528.svg)](https://doi.org/10.5281/zenodo.3547528)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3553063.svg)](https://doi.org/10.5281/zenodo.3553063)
 
-The directory contains a summary of results for the evaluation of statistical characteristics preservation. Raw data with all traces, together with computed statistics, are available at [https://doi.org/10.5281/zenodo.3547528](https://doi.org/10.5281/zenodo.3547528).
+The directory contains a summary of results for the evaluation of statistical characteristics preservation. Raw data with all traces, together with computed statistics, are available at [https://doi.org/10.5281/zenodo.3553063](https://doi.org/10.5281/zenodo.3553063).
 
 
 ## Selected Attack Traces
@@ -17,10 +17,10 @@ Publicly available dataset [CSE-CIC-IDS-2018](https://www.unb.ca/cic/datasets/id
 
 ## Dataset Structure
 
-* Traces variants ([traces-normalized.zip](https://zenodo.org/record/3547528/files/traces.zip), [traces-adjusted.zip](https://zenodo.org/record/3547528/files/traces.zip) -- password: "*trace-share*")
+* Traces variants ([traces-normalized.zip](https://zenodo.org/record/3553063/files/traces-normalized.zip), [traces-adjusted.zip](https://zenodo.org/record/3553063/files/traces-adjusted.zip) -- password: "*trace-share*")
     * `./traces-normalized/` -- normalized PCAP files and details in YAML format;
     * `./traces-adjusted/` -- configuration files for traces combination in YAML format.
-* Computed statistics ([statistics.zip](https://zenodo.org/record/3547528/files/alerts.zip) -- password: "*trace-share*")
+* Computed statistics ([statistics.zip](https://zenodo.org/record/3553063/files/statistics.zip) -- password: "*trace-share*")
     * `./statistics-background/` -- background traffic statistics computed by ID2T;
     * `./statistics-combination/` -- combined traces statistics computed by ID2T for all adjust options (selected only combinations where ID2T provided all statistics files);
     * `./statistics-difference/` -- computed mean and median differences of background and combined traffic traces.
